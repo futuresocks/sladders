@@ -9,7 +9,7 @@ class TestGame_logic < MiniTest::Test
     @user1 = User.new("Colin")
     @user2 = User.new("L'il Stewie")
     @user3 = User.new("Big Chris")
-    @user4 = User.new("Micky")
+    @user4 = User.new("Jia")
     @game = Game_logic.new([@user1, @user2, @user3, @user4])
   end
 

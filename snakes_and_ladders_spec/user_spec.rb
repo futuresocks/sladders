@@ -8,7 +8,7 @@ class TestUser < MiniTest::Test
     @user1 = User.new("Colin")
     @user2 = User.new("L'il Stewie")
     @user3 = User.new("Big Chris")
-    @user4 = User.new("Micky")
+    @user4 = User.new("Jia")
   end
 
  def test_get_name

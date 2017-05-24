@@ -2,6 +2,28 @@
 
 class Game_logic
 
+  def welcome()
+
+    puts ""
+    puts "***********************"
+    puts "it's time for"
+    puts "  S"
+    puts "    L"
+    puts "      A"
+    puts "         D"
+    puts "            D"
+    puts "               E"
+    puts "                  R"
+    puts "                    S"
+    puts "                    V "
+    puts "**********************"
+    puts "a BellBryceGamez Joint"
+    puts ""
+    puts ""
+ 
+  end
+
+
   def initialize(players)
     @players = players
     @game = true
