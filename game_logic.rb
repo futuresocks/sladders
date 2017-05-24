@@ -68,9 +68,14 @@ class Game_logic
     while @game == true
       for player in @players
         player.step_on(false)
+        puts ""
+        puts "#{player.get_name}, press RETURN to roll the die!"
+        gets.chomp 
         player.roll_die
         if player.position >= 100
-          puts "#{player.get_name} wins!"
+          puts ""
+          puts "YASSSSSS #{player.get_name} wins!".upcase
+          puts ""
           @game = false
           return
         end
